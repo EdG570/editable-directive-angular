@@ -1,0 +1,12 @@
+<div class="editable-content"
+      ng-init="canEdit = false"
+      ng-transclude
+      contenteditable="{{ canEdit }}"
+      ng-class= "{ editable: canEdit }">
+  
+</div>
+
+<div class="edit-ctrl">
+    <button ng-click="canEdit = true" ng-show="!canEdit">Edit</button>
+    <button ng-click="canEdit = false" ng-show"canEdit">Save</button>
+</div>

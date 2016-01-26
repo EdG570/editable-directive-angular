@@ -1,0 +1,11 @@
+{
+  "name": "editable-item-directive",
+  "version": "1.0.0",
+  "description": "Custom angular directive where users can edit content and save their changes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ed Glazenski",
+  "license": "ISC"
+}
